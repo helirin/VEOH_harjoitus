@@ -1,0 +1,35 @@
+.delete_button {
+    background-color: lightsalmon;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: none;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.add_button {
+    background-color: lightblue;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: none;
+    font-size: 16px;
+    margin: 5px;
+}
+.reg_button {
+    background-color: violet;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: none;
+    font-size: 16px;
+    margin: 5px;
+}
+
+form {
+    display: inline;
+}
+div,p {
+     font-family: Arial, Helvetica, sans-serif;
+}
