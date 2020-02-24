@@ -64,9 +64,9 @@ const post_note = (req, res, next) => {
         //const user = req.user;
         const note_id_to_upd = req.body.note_id;
         const lista = req.body.lista;
-        const kuva = req.body.kuva;
+        const image = req.body.kuva;
         
-            note_model.findByIdAndUpdate(note_id_to_upd, {lista: lista}, {image: kuva}).then(() => {
+            note_model.findByIdAndUpdate(note_id_to_upd, {lista: lista}, {image: image}).then(() => {
                 res.redirect('/');
             });
         };
